@@ -1,6 +1,5 @@
 h1 {
   font-size: 3vw;
-  color: black
 }
 
 h2 {
@@ -13,14 +12,9 @@ h3 {
 
 body {
   background-color: black;
-  color:yellow
+  color: white
 }
 
 div {
-  background-color: yellow;
-  color: white;
-}
-
-font {
-  color: greenyellow;
-}
+  background-color: rgb(0, 183, 255);
+  }
