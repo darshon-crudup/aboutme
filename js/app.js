@@ -2,7 +2,7 @@
 
 let userName = prompt('What is your name?');
 
-alert('Welcome to my website ${userName}!  Shall we play a guessing game...Please answer yes or no');
+alert(`Welcome to my website ${userName}!  Shall we play a guessing game...Please answer yes or no`);
 
 let quest1Guess = prompt('Did Bruce Wayne get bit by a radioactive spider?').toLowerCase();
 
@@ -44,4 +44,4 @@ if(quest5Guess === 'no' || quest5Guess === 'n'){
   alert('Incorrect!');
 }
 
-alert('Thanks for playting! ${userName}! Your the real hero!')
+alert(`Thanks for playing our guessing game ${userName}! Your the real hero!`)
