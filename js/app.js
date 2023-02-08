@@ -1,21 +1,21 @@
 'use strict';
 
 let userName = prompt('What is your name?');
-alert{'Welcome to my website ${userName}!  Lets play a guessing game..Please answer yes or no'};
+alert('Welcome to my website ${userName}!  Lets play a guessing game..Please answer yes or no');
 
 let quest1Guess = prompt('Did Bruce Wayne get bit by a radioactive spider?').toLowerCase();
 
-if(quest1Guess === 'yes' || quest1Guess === 'y'){
+if(quest1Guess === 'no' || quest1Guess === 'n'){
   alert('Correct!');
-} else if(quest1Guess === 'no' || quest1Guess === 'n'){
+} else if(quest1Guess === 'yes' || quest1Guess === 'y'){
   alert('Incorrect!');
 }
 
 let quest2Guess = prompt('Did Spiderman come from the plant Krypton?').toLowerCase();
 
-if(quest2Guess === 'yes' || quest2Guess === 'y'){
+if(quest2Guess === 'no' || quest2Guess === 'n'){
   alert('Correct!');
-} else if(quest2Guess === 'no' || quest2Guess === 'n'){
+} else if(quest2Guess === 'yes' || quest2Guess === 'y'){
   alert('Incorrect!');
 }
 
@@ -37,9 +37,10 @@ if(quest4Guess === 'yes' || quest4Guess === 'y'){
 
 let quest5Guess = prompt('Does Spiderman fight crime in the batmobile?').toLowerCase();
 
-if(quest5Guess === 'yes' || quest5Guess === 'y'){
+if(quest5Guess === 'no' || quest5Guess === 'n'){
   alert('Correct!');
-} else if(quest5Guess === 'no' || quest5Guess === 'n'){
+} else if(quest5Guess === 'yes' || quest5Guess === 'y'){
   alert('Incorrect!');
 }
 
+alert("")
