@@ -11,7 +11,7 @@ Experienced Army Veteran and Creator with a background in office administration,
 
 ## Links and Resources
 
-- guessing game(index.html);
+- [guessing game](./index.html);
 
 ## Lighthouse Accessibility Report Scrore
 ![Results](results.jpg)
