@@ -1,5 +1,6 @@
 h1 {
   font-size: 3vw;
+  color: black
 }
 
 h2 {
@@ -13,6 +14,11 @@ h3 {
 body {
   background-color: black;
   color:yellow
+}
+
+div {
+  background-color: yellow;
+  color: white;
 }
 
 font {
