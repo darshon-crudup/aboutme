@@ -11,7 +11,7 @@ Experienced Army Veteran and Creator with a background in office administration,
 
 ## Links and Resources
 
-- [guessing game](./index.html);
+- [guessing game](/index.html);
 
 ## Lighthouse Accessibility Report Scrore
 ![Results](results.jpg)
@@ -20,3 +20,11 @@ Experienced Army Veteran and Creator with a background in office administration,
 
 - Know the differences between back ticks ` and single quotes '.
 - Define || and ===
+
+## Questions
+
+1. How did this go, overall?
+
+2. What observations or questions do you have about what you’ve learned so far?
+
+3. How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
