@@ -18,3 +18,14 @@ body {
 div {
   background-color: rgb(0, 183, 255);
   }
+
+  ol {
+    list-style-position: inside;
+    list-style-type: decimal;
+  }
+
+  ul {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+  
