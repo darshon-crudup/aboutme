@@ -54,7 +54,10 @@ var guess = prompt("Take a guess");
 for (let i = 0; i < 3; i++){
   if(answer == guess){
     alert("CORRECT");
+    break
+  } else if(answer > guess){
+    guess = prompt("PLEASE TRY AGAIN, GUESS TOO LOW");
   } else {
-    guess = prompt("PLEASE TRY AGAIN");
+    guess = prompt("PLEASE TRY AGAIN, GUESS TOO HIGH");
   }
 }
