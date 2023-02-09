@@ -44,16 +44,16 @@ if(quest5Guess === 'no' || quest5Guess === 'n'){
   alert('Incorrect!');
 }
 
-alert('Round Two. Lets play another game.  Guess a number 1-4');
+alert('Round Two. Lets play another game. Guess a number 1-4');
 
 var answer = 3;
 var guess = prompt("Take a guess");
 
 for(i=0; i<4;i++) {
-  if(answer==guess) {
+  if(answer == guess) {
     alert("CORRECT");
-  } eles {
-    guess=prompt("PLEASE TRY AGAIN");
+  } else {
+    guess = prompt("PLEASE TRY AGAIN");
   }
 }
 
