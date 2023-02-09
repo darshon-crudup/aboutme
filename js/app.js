@@ -54,7 +54,7 @@ var guess = prompt("Take a guess");
 for (let i = 0; i < 4; i++){
   if(answer == guess){
     alert("CORRECT");
-    break
+    break;
   } else if(answer > guess){
     guess = prompt("PLEASE TRY AGAIN, GUESS TOO LOW");
   } else {
@@ -68,20 +68,19 @@ for (let i = 0; i < 4; i++){
 
 let cars = ['mcclaren','bugatti','maserati','porsche','ferrari','lamborghini'];
 
-alert('I love exotic automobiles, can you guess what my favorite dream car is?');
-
-var answer = ('lamborghini');
-var guess = prompt("Take a guess");
+for (let i = 0; i < 6; i++){
+let quest7Guess = prompt('I love exotic automobiles, can you guess what my favorite dream car is?').toLowerCase
 ////Guess Attempt Loop
-for (let i = 0; i < 5; i++){
-  if(answer == guess){
+
+for(let j = 0; j < cars.length; j++){
+  if(quest7Guess == cars){
     alert("CORRECT");
-    break
-  } else if(answer > guess){
+  } else if(quest7Guess > guess){
   guess = prompt("TRY AGAIN, YOU GOT THIS!");
+  break;
 }
-// let useranswer = prompt("Guess my favorite exotic car");
-}
+alert(`Here are all of my fav cars: ${cars}`);
+
 
 //// If user guesses correctly prompt ends
 
