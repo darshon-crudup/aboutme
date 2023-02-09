@@ -51,7 +51,7 @@ alert('Round Two. Lets play another game. Guess a number 1-4');
 var answer = 3;
 var guess = prompt("Take a guess");
 
-for (i=0; i<4;i++) {
+for (let i = 0; i < 4; i++){
   if(answer == guess){
     alert("CORRECT");
   } else {
