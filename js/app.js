@@ -66,20 +66,20 @@ for (let i = 0; i < 4; i++){
 // let topscore = 0;
 // let userguess = 6;
 
-let cars = ['mcclaren','bugatti','maserati','porsche','ferrari','lamborghini'];
+// let cars = ['mcclaren','bugatti','maserati','porsche','ferrari','lamborghini'];
 
-for (let i = 0; i < 6; i++){
-let quest7Guess = prompt('I love exotic automobiles, can you guess what my favorite dream car is?').toLowerCase();
-////Guess Attempt Loop
+// for (let i = 0; i < 6; i++){
+// let quest7Guess = prompt('I love exotic automobiles, can you guess what my favorite dream car is?').toLowerCase();
+// ////Guess Attempt Loop
 
-for(let j = 0; j < cars.length; j++){
-  if(quest7Guess == cars){
-    alert("CORRECT");
-  } else if(quest7Guess > guess){
-  guess = prompt("TRY AGAIN, YOU GOT THIS!");
-  break;
-}
-alert(`Here are all of my fav cars: ${cars}`);
+// for(let j = 0; j < cars.length; j++){
+//   if(quest7Guess == cars){
+//     alert("CORRECT");
+//   } else if(quest7Guess > guess){
+//   guess = prompt("TRY AGAIN, YOU GOT THIS!");
+//   break;
+// }
+// alert(`Here are all of my fav cars: ${cars}`);
 
 
 //// If user guesses correctly prompt ends
