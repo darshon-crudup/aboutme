@@ -69,7 +69,7 @@ for (let i = 0; i < 4; i++){
 let cars = ['mcclaren','bugatti','maserati','porsche','ferrari','lamborghini'];
 
 for (let i = 0; i < 6; i++){
-let quest7Guess = prompt('I love exotic automobiles, can you guess what my favorite dream car is?').toLowerCase
+let quest7Guess = prompt('I love exotic automobiles, can you guess what my favorite dream car is?').toLowerCase();
 ////Guess Attempt Loop
 
 for(let j = 0; j < cars.length; j++){
