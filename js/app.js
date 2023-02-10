@@ -115,8 +115,6 @@ break; //From Ryan: once  correct answer is made we break from the loop.
 
 question7();
 
-
-
 //// If user guesses correctly prompt ends
 
 //// if user runs out of attempts
