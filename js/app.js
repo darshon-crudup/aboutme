@@ -71,11 +71,11 @@ alert(`Thanks for playing our guessing game ${userName}! Your the real hero!`)
 alert('Round Two. Lets play another game. Guess a number 1-4');
 
 function question6(){
-  var answer = 3;
-  var guess = prompt("Take a guess of my number");
+  let answer = 3;
+  let guess = prompt("Take a guess of my number");
 
   for (let i = 0; i < 4; i++){
-    if(answer === guess){
+    if(answer === parseInt(guess)){
       alert("CORRECT");
       break;
     } else if(answer > guess){
@@ -87,33 +87,34 @@ function question6(){
 }
 question6();
 
-// function question7(){
+function question7(){
 ////Creating our variables
-// let topscore = 0;
-// let userguess = 6;
+let guesses = 0;
+let userguess = 6;
+let correct = false
 
-// let cars = ['mcclaren','bugatti','maserati','porsche','ferrari','lamborghini'];
+let cars = ['mcclaren','bugatti','maserati','porsche','ferrari','lamborghini'];
 
-// for (let i = 0; i < 6; i++){
-// let quest7Guess = prompt('I love exotic automobiles, can you guess what my favorite dream car is?').toLowerCase();
-// ////Guess Attempt Loop
+while (userguess > guesses && correct === false){
+let quest7Guess = prompt('I love exotic automobiles, can you guess what my favorite dream car is?').toLowerCase();
+console.log (guesses)
 
-// for(let j = 0; j < cars.length; j++){
-//   if(quest7Guess === cars){
-//     alert("CORRECT");
-// i = 5; //this breaks you out of both loops 
-// score++ //From Ryan: you then add to the total score 
-// break; //From Ryan: once  correct answer is made we break from the loop.
+for(let j = 0; j < cars.length; j++){
+if(quest7Guess === cars[j]){
+alert("CORRECT");
 
-//From Ryan: no need for comparisons (<<<)
-//   } else if(quest7Guess > guess){
-//   guess = prompt("TRY AGAIN, YOU GOT THIS!");
-//   break; 
-// }
-// alert(`Here are all of my fav cars: ${cars}`);
+score++
+correct = true
+break; 
 }
 
-// question7();
+}
+alert("TRY AGAIN, YOU GOT THIS!"); 
+guesses++
+}
+alert(`Here are all of my fav cars: ${cars}`);
+}
+question7();
 
 //// If user guesses correctly prompt ends
 
