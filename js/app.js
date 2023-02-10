@@ -87,7 +87,7 @@ function question6(){
 }
 question6();
 
-function question7(){
+// function question7(){
 ////Creating our variables
 // let topscore = 0;
 // let userguess = 6;
@@ -101,9 +101,9 @@ function question7(){
 // for(let j = 0; j < cars.length; j++){
 //   if(quest7Guess === cars){
 //     alert("CORRECT");
-i = 5; //this breaks you out of both loops 
-score++ //From Ryan: you then add to the total score 
-break; //From Ryan: once  correct answer is made we break from the loop.
+// i = 5; //this breaks you out of both loops 
+// score++ //From Ryan: you then add to the total score 
+// break; //From Ryan: once  correct answer is made we break from the loop.
 
 //From Ryan: no need for comparisons (<<<)
 //   } else if(quest7Guess > guess){
@@ -113,7 +113,7 @@ break; //From Ryan: once  correct answer is made we break from the loop.
 // alert(`Here are all of my fav cars: ${cars}`);
 }
 
-question7();
+// question7();
 
 //// If user guesses correctly prompt ends
 
