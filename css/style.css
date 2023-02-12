@@ -1,9 +1,9 @@
 :root {
-  --color-1 #ec0303
-  --color-2 #186cb8
-  --color-3 #65b818
-  --color-4 #5a024e
-  --color-5 #5a024e
+  --color-1: #186cb8
+  --color-2: #186cb8
+  --color-3: #65b818
+  --color-4: #5a024e
+  --color-5: #5a024e
 }
 
 * {
