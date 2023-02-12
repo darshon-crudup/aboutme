@@ -4,7 +4,6 @@ let userName = prompt('What is your name?');
 
 alert(`Welcome to my website ${userName}!  Shall we play a guessing game...Please answer yes or no`);
 
-
 function question1 (){
   let quest1Guess = prompt('Did Bruce Wayne get bit by a radioactive spider?').toLowerCase();
 
@@ -16,7 +15,6 @@ function question1 (){
 }
 
 question1();
-
 
 function question2 (){
   let quest2Guess = prompt('Did Spiderman come from the plant Krypton?').toLowerCase();
@@ -88,7 +86,7 @@ function question6(){
 question6();
 
 function question7(){
-////Creating our variables
+
 let guesses = 0;
 let userguess = 6;
 let correct = false
@@ -116,10 +114,3 @@ alert(`Here are all of my fav cars: ${cars}`);
 }
 question7();
 
-//// If user guesses correctly prompt ends
-
-//// if user runs out of attempts
-
-////display all possible correct answers to user
-
-////display score with correct number of answers
